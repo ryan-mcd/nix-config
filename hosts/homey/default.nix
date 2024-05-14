@@ -66,6 +66,8 @@ in
         node-exporter.enable = true;
 
         openssh.enable = true;
+
+        podman.enable = true;
       };
 
       users = {

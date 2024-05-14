@@ -4,8 +4,8 @@
   imports = [
     ./nix.nix
     ./users.nix
+    ./services
     # ./filesystems
-    # ./services
   ];
 
   # documentation.nixos.enable = false;
