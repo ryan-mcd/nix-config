@@ -1,0 +1,11 @@
+---
+keys:
+  - &user_ryan age1tfmjgyxfv09xc7kvy0895wekpcqarywaeeuxs7cy0n37zs77tejs9z40a4
+  - &host_homey age17yq8mv5wdkgh239cjs2q6kcfujz3zz34w0clt6ndep7pcwc7hppqgza2kz
+
+creation_rules:
+  - path_regex: .*\.sops\.ya?ml$
+    key_groups:
+      - age:
+          - *user_ryan
+          - *host_homey

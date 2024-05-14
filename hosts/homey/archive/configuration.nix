@@ -8,6 +8,7 @@
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
+      ./secrets.nix
     ];
 
   # Bootloader.
@@ -75,6 +76,7 @@
   #   enableSSHSupport = true;
   # };
 
+  # Needed For VS Code remote-ssh
   programs.nix-ld.enable = true;
 
   # List services that you want to enable:
