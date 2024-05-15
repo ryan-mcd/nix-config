@@ -19,7 +19,6 @@
     security = {
       ssh = {
         enable = true;
-        };
       };
     };
 
@@ -32,7 +31,7 @@
         email = "72583999+ryan-mcd@users.noreply.github.com";
       };
 
-      go-task.enable = true;
+      # go-task.enable = true;
     };
   };
 }
